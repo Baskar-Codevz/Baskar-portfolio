@@ -20,7 +20,7 @@ import {
   EyeOff,
 } from "lucide-react";
 
-const API_URL = "http://localhost:5000/api/testimonials";
+const API_URL ="https://baskar-portfolio-bh3r.onrender.com/api/testimonials";
 
 const AdminTestimonials = () => {
   const [password, setPassword] = useState("");
