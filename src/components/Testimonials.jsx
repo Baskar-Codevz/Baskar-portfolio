@@ -14,7 +14,7 @@ import {
   AlertCircle,
 } from "lucide-react";
 
-const API_URL = "http://localhost:5000/api/testimonials";
+const API_URL = " https://baskar-portfolio-bh3r.onrender.com";
 
 const emptyForm = {
   clientName: "",
