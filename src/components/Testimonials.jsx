@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState } from "react";
+ import React, { useEffect, useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
 import {
   ArrowDownRight,
@@ -14,12 +14,14 @@ import {
   AlertCircle,
 } from "lucide-react";
 
-  const API_URL ="https://baskar-portfolio-bh3r.onrender.com";
+  
+const API_URL = "https://baskar-portfolio-bh3r.onrender.com/api/testimonials";
+
 
 const emptyForm = {
   clientName: "",
   company: "",
-  role: "",
+  role: "", 
   message: "",
   rating: 5,
 };
